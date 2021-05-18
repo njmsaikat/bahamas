@@ -1,0 +1,387 @@
+@font-face {
+    font-family: coco;
+    src: url(font/COCOGOOSELETTERPRESS\ TRIAL.ttf);
+}
+
+h1, h2{
+    font-family: 'coco', Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: #003768;
+}
+
+.coco{
+    font-family: 'coco', Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/*slider styles*/
+
+.carousel-thumb {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-thumb li {
+    border: 4px solid #fff;
+}
+
+.carousel-thumb li {
+    border: 4px solid #fff;
+    margin: 2px;
+    cursor: pointer;
+}
+.c-next {
+    width: 5%;
+}
+.c-prev {
+    width: 5%;
+}
+
+.hero{
+    margin-bottom: 40px;
+}
+
+/*content-head*/
+.content-title {
+    display: flex;
+}
+
+.content-title .left h1 {
+    color: #003768;
+    margin: 0;
+}
+
+.content-title .right {
+    margin-left: 25px;
+    border-left: 2px solid #003768;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #DC6013;
+    text-transform: uppercase;
+}
+
+.content-title .right .top {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+}
+
+.price-no {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.content-title .right .bottom {
+    font-size: 30px;
+    line-height: 28px;
+}
+
+/*right side column*/
+.booking-button {
+    text-align: center;
+    margin: auto;
+}
+.booking-button button {
+    background-color: #DC6013;
+}
+.booking-button button:hover {
+    background-color: #003768;
+}
+
+.booking-button button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px;
+    line-height: 28px;
+}
+
+/*icon box section*/
+.icon-text{
+    margin: 2em 0 3em 0;
+}
+.icon-text ul {
+    display: flex;
+    list-style: none;
+    place-content: center space-between;
+    text-align: center;
+    padding: 0;
+}
+
+.icon-box .icon {
+    margin-bottom: 10px;
+}
+
+.icon-box .icon i {
+    border: 2px solid #003768;
+    border-radius: 50%;
+    /* padding: 15px 20px; */
+    font-size: 40px;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+}
+
+.icon-desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #A8A8A8;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.icon-desc .blue {
+    color: #003768;
+    font-weight: 700;
+}
+
+/*breadcrumb link section*/
+
+
+.breadcrumb-link ul li {
+    margin-right: 10px;
+}
+.breadcrumb-link ul li a {
+    text-decoration: none;
+    color: #337AB7;
+}
+.breadcrumb-link ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/*content text section*/
+.content-text p {
+    font-size: 18px;
+}
+
+.content-text a {
+    color: #337AB7;
+}
+
+.content-text-list li {
+    font-size: 18px;
+}
+
+/*map-section*/
+.map-section{
+    text-align: center;
+}
+
+.gmap-title {
+    max-width: 500px;
+}
+
+.gmap-title h2{
+    margin-bottom: 20px;
+}
+
+.map-location {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.map-location .location-main {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003768;
+}
+
+/*image over box section*/
+.image-over-section .col {
+    padding: 0;
+}
+.image-over-box .image img {
+    width: 100%;
+}
+
+.image-box-content-title h2 {
+    font-size: 26px;
+    line-height: 26px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+
+.image-box-content {
+    position: relative;
+    margin-top: -110px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.image-box-content-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box-content-price {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.image-box-content-button {
+    text-align: center;
+}
+.image-box-content-button button {
+    background-color: #DC6013;
+}
+.image-box-content-button button:hover {
+    background-color: #003768;
+}
+
+.image-box-content-button button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/*visit location section*/
+.visit-section {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.visit-locations ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.visit-locations a {
+    color: #000;
+    font-weight: 600;
+}
+
+.location-box {
+    margin-top: 20px;
+}
+
+.location-box .location-image {
+    margin-bottom: 10px;
+}
+
+.location-image img {
+    transition: all .5s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.visit-locations a:hover .location-image img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: scale(.9);
+}
+
+
+/*for large screen booking button off*/
+.booking-button-small{
+    display: none;
+}
+
+/*responsive*/
+@media (max-width: 1199px){
+    .image-box-content-title h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .image-box-content-price {
+        font-size: 16px;
+    }
+
+    .image-box-content-button button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px){
+    .main-right {
+        display: none;
+    }
+
+    .main-left {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .booking-button-small{
+        display: block;
+    }
+
+    .content-title {
+        display: block;
+    }
+
+    .content-title .right {
+        margin-left: 0;
+        border-left: none;
+        padding-left: 0;
+        display: block;
+        color: #DC6013;
+        text-transform: uppercase;
+    }
+
+    .content-title .right .top {
+        font-size: 18px;
+    }
+
+    .image-over-section .row .col {
+        /* width: 50%; */
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .image-box-content {
+        margin-top: -84px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .content-title {
+        text-align: center;
+    }
+
+    .image-box-content-title h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .image-box-content-button button {
+        font-size: 12px;
+    } 
+    
+    .image-box-content {
+        margin-top: -100px;
+    }
+
+    .visit-locations ul {
+        display: block;
+    }
+}
+
+@media (max-width: 767px){
+    .icon-text ul{
+        display: block;
+    }
+
+    .image-over-section .row .col {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
